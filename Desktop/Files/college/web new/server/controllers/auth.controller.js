@@ -2,8 +2,6 @@ const User = require('../models/auth.model')
 const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
 
-
-
 const register = (req, res, next) => {
 
     bcrypt.hash(req.body.password, 10, function(err, hashedPass) {
@@ -35,7 +33,6 @@ const register = (req, res, next) => {
     })
 
 }
-
 const login = (req, res, next) => {
     var username = req.body.username
     var password = req.body.password
@@ -54,6 +51,8 @@ const login = (req, res, next) => {
                             message: 'Login Successful',
                             token
                         })
+                        console.log('Login Sucess');
+
                     } else {
                         res.json({
                             message: 'Password does not match'

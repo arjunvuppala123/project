@@ -13,7 +13,7 @@ export const Home = () => (
       }}
       id="carousel-img"
       className="d-block w-100"
-      src="https://i.ytimg.com/vi/uAqMXkfZYVE/maxresdefault.jpg"
+      src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Billboard_Hot_100_logo.jpg"
       alt="First slide"
       overflow="visible"
     />
@@ -32,7 +32,7 @@ export const Home = () => (
       }}
       id="carousel-img"
       className="d-block w-100"
-      src="https://www.gannett-cdn.com/-mm-/b2b05a4ab25f4fca0316459e1c7404c537a89702/c=0-0-1365-768/local/-/media/2020/03/14/USATODAY/usatsports/247WallSt.com-247WS-651938-the-weeknd.jpg?width=660&height=372&fit=crop&format=pjpg&auto=webp" alt="Second slide"
+      src="https://upload.wikimedia.org/wikipedia/en/6/68/Shawn_Mendes_-_Wonder.png" alt="Second slide"
       alt="Second slide"
       overflow="visible"
       padding= "30"

@@ -1,9 +1,6 @@
 import React,{ Component}  from 'react';
 import "../App.css";
 import data from "./data.json"
-import {LikeButton} from "./LikeButton"
-import {CommentButton} from "./Comment"
-import {SpotifyButton} from "./Spotify"
 
 
 class SearchFilter extends Component {
